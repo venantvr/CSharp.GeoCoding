@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCoding.Test", "GeoCoding\GeoCoding.Test.csproj", "{2230B0F1-4059-41CA-9733-5923C5A8A86D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCoding.Test", "GeoCoding.Test\GeoCoding.Test.csproj", "{2230B0F1-4059-41CA-9733-5923C5A8A86D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCoding.WebApi", "GeoCodingWebApi\GeoCoding.WebApi.csproj", "{A51AECBA-1457-42A3-9BA9-278BC18302C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCoding.WebApi", "GeoCoding.WebApi\GeoCoding.WebApi.csproj", "{A51AECBA-1457-42A3-9BA9-278BC18302C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
