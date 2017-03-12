@@ -8,7 +8,7 @@ using Geocoding.Google;
 
 namespace GeoCoding.Test
 {
-    internal class Program
+    public class Program
     {
         private static void GenerateFichierPoi(IEnumerable<GoogleAddress> addresses, string date)
         {
