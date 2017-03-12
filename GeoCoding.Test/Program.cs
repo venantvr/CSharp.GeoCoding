@@ -45,8 +45,8 @@ namespace GeoCoding.Test
 
             foreach (var address in addresses)
             {
-                Console.WriteLine("Formatted: {0}", address.FormattedAddress); //Formatted: 1600 Pennslyvania Avenue Northwest, Presiden'ts Park, Washington, DC 20500, USA
-                Console.WriteLine("Coordinates: {0}, {1}", address.Coordinates.Latitude, address.Coordinates.Longitude); //Coordinates: 38.8978378, -77.0365123
+                Console.WriteLine("Formatted: {0}", address.FormattedAddress);
+                Console.WriteLine("Coordinates: {0}, {1}", address.Coordinates.Latitude, address.Coordinates.Longitude);
 
                 var reverse = geoCoder.ReverseGeocode(new Location(address.Coordinates.Latitude, address.Coordinates.Longitude));
                 var toDisplay = string.Empty;
