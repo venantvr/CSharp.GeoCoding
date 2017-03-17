@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCoding.Test", "GeoCoding.Test\GeoCoding.Test.csproj", "{2230B0F1-4059-41CA-9733-5923C5A8A86D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoCoding.WebApi", "GeoCoding.WebApi\GeoCoding.WebApi.csproj", "{A51AECBA-1457-42A3-9BA9-278BC18302C3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -17,10 +15,6 @@ Global
 		{2230B0F1-4059-41CA-9733-5923C5A8A86D}.Debug|x86.Build.0 = Debug|x86
 		{2230B0F1-4059-41CA-9733-5923C5A8A86D}.Release|x86.ActiveCfg = Release|x86
 		{2230B0F1-4059-41CA-9733-5923C5A8A86D}.Release|x86.Build.0 = Release|x86
-		{A51AECBA-1457-42A3-9BA9-278BC18302C3}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{A51AECBA-1457-42A3-9BA9-278BC18302C3}.Debug|x86.Build.0 = Debug|Any CPU
-		{A51AECBA-1457-42A3-9BA9-278BC18302C3}.Release|x86.ActiveCfg = Release|Any CPU
-		{A51AECBA-1457-42A3-9BA9-278BC18302C3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
