@@ -12,7 +12,7 @@ namespace GeoCoding.Test
     {
         private static void GenerateFichierPoi(IEnumerable<GoogleAddress> addresses, string date)
         {
-            var fileStream = File.Open(Path.Combine(@"", date + ".ov2"), FileMode.Create);
+            var fileStream = File.Open(Path.Combine(@"", $"{date}.ov2"), FileMode.Create);
 
             using (var ov2File = new BinaryWriter(fileStream))
             {
@@ -21,7 +21,6 @@ namespace GeoCoding.Test
                     var length = address.FormattedAddress.Length + 14;
                     var ov2Data = new byte[length];
                     var buffer = BitConverter.GetBytes('2');
-                    //ov2Data[0] = buffer[0];
                     ov2Data[0] = 2;
                     buffer = BitConverter.GetBytes((long) length);
                     Array.Copy(buffer, 0, ov2Data, 1, 3);
@@ -34,6 +33,7 @@ namespace GeoCoding.Test
                     Array.Copy(buffer, 0, ov2Data, 10, address.FormattedAddress.Length);
                     ov2File.Write(ov2Data);
                 }
+
                 ov2File.Close();
             }
         }
