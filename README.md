@@ -8,4 +8,4 @@ Utilitaires de géocodage pour .NET : conversion d'adresses en coordonnées GPS 
 
 ## Stack
 
-C# / .NET Framework
+[![Stack](https://skillicons.dev/icons?i=dotnet,cs&theme=dark)](https://skillicons.dev)
